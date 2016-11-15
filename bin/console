@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require "./conan"
+
+require "pry"
+Pry.start
+
+# require "irb"
+# IRB.start

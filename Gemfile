@@ -6,6 +6,10 @@ gem 'sinatra'
 gem 'dotenv'
 gem 'celluloid-io'
 
+gem 'sinatra-activerecord'
+gem 'pg'
+gem 'rake'
+
 group :development, :test do
   gem 'rake'
   gem 'foreman'

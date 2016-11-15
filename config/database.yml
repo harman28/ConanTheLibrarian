@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: conan_dev
+
+test:
+  adapter: postgresql
+  database: conan_test
