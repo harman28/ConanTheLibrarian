@@ -1,5 +1,5 @@
 class Book < ActiveRecord::Base
 
-  # self.primary_key = 'id'
+  validates :title, presence: true
 
 end
